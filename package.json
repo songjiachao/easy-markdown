@@ -2,7 +2,14 @@
   "name": "easy-markdown",
   "displayName": "easy-markdown",
   "description": "easy to write markdown in vscode",
+  "icon": "images/logo.png",
   "version": "0.0.1",
+  "publisher":"songjiachao666",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/songjiachao/easy-markdown"
+	},
+  "license": "MIT",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -18,6 +25,12 @@
       {
         "command": "easy-markdown.helloWorld",
         "title": "Hello World"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.json"
       }
     ]
   },
